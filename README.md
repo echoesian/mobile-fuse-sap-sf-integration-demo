@@ -1,23 +1,23 @@
-JBoss Feedhenry and Fuse (Camel) Integration Demo
-=================================================
-Currently in Progrees to be completed from below.  All 4 use cases to be completed by the end of March.
+JBoss Feedhenry and Fuse (Camel) Integration Demo  
+=================================================  
+Currently in Progrees to be completed from below.  All 4 use cases to be completed by the end of March.  
+  
+This demo project will get you started with SAP, SF, Feedhenry and Fuse Integration.  
 
-This demo project will get you started with SAP, SF, Feedhenry and Fuse Integration.
-
-![alt tag](https://raw.github.com/username/projectname/branch/path/to/img.png)
-
-Use Case 1: PC-SF-Fuse-SAP (JCO&NGW consume/produce or vv)
--Closed opportunity in SFDC creates a customer record in SAP
--Timeline with Video: Approx 2/2015
-Use Case 2: FH-SF-Fuse-SAP (JCO&NGW consume/produce or vv)
--Closed opportunity via mobile app, updates the associated opportunity in SFDC and creates a customer record in SAP
--Timeline with Video: Approx 2/2015
-Use Case 3: PC-SAP-Fuse-SF (w/o mobile)
--Update customer status in SAP (Delayed payments), associated opportunity in SFDC for this customer reflects the new customer status
--Timeline with Video: Approx 3/2015
-Use Case 4: PC-SAP-Fuse-SF (mobile)
--Update customer status in SAP (Delayed payments),put the customer 'ON HOLD' via the mobile app, and associated opportunity in SFDC for this customer reflects the updated customer statis (ON HOLD)
--Timeline with Video: Approx 3/2015
+![Demo Overview](https://raw.githubusercontent.com/jbossdemocentral/fh-fuse-sap-sf-integration-demo/master/docs/demo-images/sap-fuse-sf-feedhenry.png)
+  
+Use Case 1: PC-SF-Fuse-SAP (JCO&NGW consume/produce or vv)  
+-Closed opportunity in SFDC creates a customer record in SAP  
+-Timeline with Video: Approx 2/2015  
+Use Case 2: FH-SF-Fuse-SAP (JCO&NGW consume/produce or vv)  
+-Closed opportunity via mobile app, updates the associated opportunity in SFDC and creates a customer record in SAP  
+-Timeline with Video: Approx 2/2015  
+Use Case 3: PC-SAP-Fuse-SF (w/o mobile)  
+-Update customer status in SAP (Delayed payments), associated opportunity in SFDC for this customer reflects the new customer status  
+-Timeline with Video: Approx 3/2015  
+Use Case 4: PC-SAP-Fuse-SF (mobile)  
+-Update customer status in SAP (Delayed payments),put the customer 'ON HOLD' via the mobile app, and associated opportunity in SFDC for this customer reflects the updated customer statis (ON HOLD)  
+-Timeline with Video: Approx 3/2015  
   
   NOTE:  Make sure the fabric server passwords for the Maven Plugin is in your ~/.m2/settings.xml file so that the maven plugin can login to the fabric.  See the example in the support/settings.xml file.  Also make sure JAVA_HOME is setup, such as - export JAVA_HOME="/etc/alternatives/java_sdk" - on Fedora.  
   
