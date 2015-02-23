@@ -1,6 +1,6 @@
 JBoss Feedhenry and Fuse (Camel) Integration Demo  
 =================================================  
-Currently in Progrees to be completed from below.  All 4 use cases to be completed by the end of March.  
+CURRENTLY IN PROGRESS TO BE COMPLETED BY THE END OF MARCH FOR ALL 4 USE CASES.  
   
 This demo project will get you started with SAP, SF, Feedhenry and Fuse Integration.  
 
@@ -26,7 +26,7 @@ Local Install Option:
 
 1. [Download and unzip.](https://github.com/DataVirtualizationByExample/dv-fuse-integration-demo/archive/master.zip).  If running on Windows, it is reccommended the project be extracted to a location near the root drive path due to limitations of length of file/path names.  
   
-2. Add the DV and Fuse Products to the software directory.  
+2. Add Fuse Products to the software directory.  
   
 3. Run 'init.sh' or 'init.bat' to setup the environment locally. 'init.bat' must be run with Administrative privileges.  
   
