@@ -49,11 +49,11 @@
  	</bean>
 
  	<bean id="nplDestinationData" class="org.fusesource.camel.component.sap.model.rfc.impl.DestinationDataImpl">
- 		<property name="ashost" value="52.1.39.181" />
+ 		<property name="ashost" value="nplhost" />
  		<property name="sysnr" value="00" />
  		<property name="client" value="001" />
  		<property name="user" value="developer" />
- 		<property name="passwd" value="Redhat11" />
+ 		<property name="passwd" value="password" />
  		<property name="lang" value="en" />
  	</bean>
  	
